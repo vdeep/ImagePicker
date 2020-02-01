@@ -1,5 +1,3 @@
-⚠️ DEPRECATED, NO LONGER MAINTAINED
-
 ![ImagePicker](https://github.com/hyperoslo/ImagePicker/blob/master/Resources/ImagePickerPresentation.png)
 
 [![Version](https://img.shields.io/cocoapods/v/ImagePicker.svg?style=flat)](http://cocoadocs.org/docsets/ImagePicker)
@@ -80,14 +78,14 @@ let images = imageAssets
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ImagePicker'
+pod 'ImagePicker', :git => 'https://github.com/vdeep/ImagePicker.git'
 ```
 
 **ImagePicker** is also available through [Carthage](https://github.com/Carthage/Carthage).
 To install just write into your Cartfile:
 
 ```ruby
-github "hyperoslo/ImagePicker"
+github "vdeep/ImagePicker"
 ```
 
 ## Author
